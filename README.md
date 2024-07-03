@@ -18,8 +18,8 @@ w1=((x*y).mean()-x.mean()*y.mean()) / ((x**2).mean()-(x.mean())**2)
 # Final value of w1 
 w1= 2.6750000000000003
 
-# Calculating the value of w1
+# Calculating the value of w0
 w0=y.mean()-w1*x.mean()
 
-# Final value of w1
+# Final value of w0
 w0= 2.875
